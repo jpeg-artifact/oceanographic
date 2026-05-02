@@ -1,5 +1,5 @@
 {
-  "aquifers_enabled": true,
+  "aquifers_enabled": false,
   "default_block": {
     "Name": "minecraft:stone"
   },
@@ -12,7 +12,7 @@
   "disable_mob_generation": false,
   "legacy_random_source": false,
   "noise": {
-    "height": 448,
+    "height": 416,
     "min_y": -64,
     "size_horizontal": 1,
     "size_vertical": 2
@@ -24,8 +24,8 @@
       "xz_scale": 1,
       "y_scale": 0.5
     },
-    "continents": "minecraft:overworld/continents",
-    "depth": "minecraft:overworld_amplified/depth",
+    "continents": "oceanographic:island_continents",
+    "depth": "oceanographic:island_depth",
     "erosion": "minecraft:overworld/erosion",
     "final_density": {
       "type": "minecraft:min",
@@ -220,7 +220,7 @@
                         "type": "minecraft:quarter_negative",
                         "argument": {
                           "type": "minecraft:mul",
-                          "argument1": "minecraft:overworld_amplified/depth",
+                          "argument1": "oceanographic:island_depth",
                           "argument2": {
                             "type": "minecraft:cache_2d",
                             "argument": "minecraft:overworld_amplified/factor"

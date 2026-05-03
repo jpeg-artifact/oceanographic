@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:min",
+  "argument1": "minecraft:overworld/erosion",
+  "argument2": {
+    "type": "minecraft:y_clamped_gradient",
+    "from_y": 200,
+    "to_y": 215,
+    "from_value": 0.0,
+    "to_value": 1.0
+  }
+}

@@ -26,7 +26,7 @@
     },
     "continents": "oceanographic:island_continents",
     "depth": "oceanographic:island_depth",
-    "erosion": "minecraft:overworld/erosion",
+    "erosion": "oceanographic:island_erosion",
     "final_density": {
       "type": "minecraft:min",
       "argument1": {
